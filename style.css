@@ -1,0 +1,78 @@
+body {
+    background-color: #fffef2;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.imagens-topo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imagens-topo img {
+    display: inline-block;
+    vertical-align: top;
+}
+
+img[src="images/topo-site (2).png"] {
+    margin: 20px auto;
+    display: block;
+}
+
+.conteudo {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1300px;
+}
+
+.texto-inicio {
+    color: black;
+    font-style: oblique;
+    font-size: 25px;
+    width: 800px;
+    margin-right: 20px;
+    line-height: 1.5;
+}
+
+.imagens-lado-a-lado {
+    display: flex;
+    gap: 10px;
+}
+
+.imagens-lado-a-lado img {
+    margin-left: 10px;
+}
+
+/* Centraliza a última imagem */
+img[src="images/coisasqueamo.png"] {
+    display: block;
+    margin: 20px auto; /* Centraliza horizontalmente */
+    width: 1000px; /* Certifica-se que o tamanho é adequado */
+}
+
+.galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linha-imagens {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.imagem-com-titulo {
+    text-align: center;
+}
+
+.imagem-com-titulo h1 {
+    color: #800e13;
+    font-size: 30px;
+    font-style: oblique;
+    margin-top: 10px;
+}
